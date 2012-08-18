@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     device/htc/vivo/prebuilt/bcm4329.ko:system/lib/modules/bcm4329.ko
 
 # stuff common to all HTC phones
-$(call inherit-product, device/htc/common/common.mk)
+#$(call inherit-product, device/htc/common/common.mk)
 
 # common msm7x30 configs
 $(call inherit-product, device/htc/msm7x30-common/msm7x30.mk)
